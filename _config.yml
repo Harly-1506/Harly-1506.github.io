@@ -27,6 +27,7 @@ repository               : "https://github.com/Harly-1506" # GitHub username/rep
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+search                   : true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -106,9 +107,9 @@ analytics:
 author:
   name             : "Minh Hải"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a student"
+  bio              : "I am a final year student of Data Science"
   location         : "Ho Chi Minh City"
-  email            : "tranminhhai1506@gmail.com"
+#   email            : "tranminhhai1506@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
