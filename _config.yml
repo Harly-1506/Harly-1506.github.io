@@ -108,7 +108,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a student"
   location         : "Ho Chi Minh City"
-  email            :
+  email            : "tranminhhai1506@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "github.com/Harly-1506"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -284,6 +284,7 @@ defaults:
       path: ""
       type: posts
     values:
+      show_dates : true
       layout: single
       author_profile: true
       read_time: true
