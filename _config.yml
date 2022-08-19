@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Minh Hải"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a final year student of Data Science"
+  bio              : "I am a normal person and love machine learning"
   location         : "Ho Chi Minh City"
 #   email            : "tranminhhai1506@gmail.com"
   links:
