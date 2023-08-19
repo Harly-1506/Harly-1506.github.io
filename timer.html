@@ -59,9 +59,10 @@
         clearInterval(intervalId);
         if (label.innerHTML === 'Get ready') {
           label.innerHTML = 'Focus';
-          // end_break_sound.play();
-          timeLeft = focus;
-          intervalId = setInterval(updateTimer, 1000);
+          end_focus_sound.play();
+          setTimeout(function() {
+          timeLeft = breakTime;
+          intervalId = setInterval(updateTimer, 1000);},10000);
         } 
         else if (label.innerHTML === 'Focus') {
           reps--;
