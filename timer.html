@@ -60,18 +60,17 @@
         end_focus_sound.play();
         if (label.innerHTML === 'Get ready') {
           label.innerHTML = 'Focus';
-          end_break_sound.play();
-          setTimeout( function(){
+          // end_break_sound.play();
           timeLeft = focus;
-          intervalId = setInterval(updateTimer, 1000);},10000);
+          intervalId = setInterval(updateTimer, 1000);
         } 
         else if (label.innerHTML === 'Focus') {
           reps--;
           if (reps > 0) {
             label.innerHTML = 'Break';
             end_focus_sound.play();
-            setTimeout( function(){
-            timeLeft = focus;
+            setTimeout(function() {
+            timeLeft = breakTime;
             intervalId = setInterval(updateTimer, 1000);},10000);
             // end_break_sound.play();
           } 
@@ -82,10 +81,8 @@
         } 
         else if (label.innerHTML === 'Break') {
           label.innerHTML = 'Focus';
-          // timeLeft = focus;
-          // intervalId = setInterval(updateTimer, 1000);
           end_break_sound.play();
-          setTimeout( function(){
+          setTimeout(function(){
           timeLeft = focus;
           intervalId = setInterval(updateTimer, 1000);},10000);
         }
