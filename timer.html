@@ -55,6 +55,9 @@
       let seconds = timeLeft % 60;
       timer.innerHTML = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
       timeLeft--;
+      if (timeLeft == 0){
+         end_break_sound.play();
+      }
       if (timeLeft < 0) {
         clearInterval(intervalId);
         end_focus_sound.play();
