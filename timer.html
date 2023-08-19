@@ -69,8 +69,10 @@
           reps--;
           if (reps > 0) {
             label.innerHTML = 'Break';
-            timeLeft = breakTime;
-            intervalId = setInterval(updateTimer, 1000);
+            end_focus_sound.play();
+            setTimeout( function(){
+            timeLeft = focus;
+            intervalId = setInterval(updateTimer, 1000);},10000);
             // end_break_sound.play();
           } 
           else {
@@ -80,8 +82,12 @@
         } 
         else if (label.innerHTML === 'Break') {
           label.innerHTML = 'Focus';
+          // timeLeft = focus;
+          // intervalId = setInterval(updateTimer, 1000);
+          end_break_sound.play();
+          setTimeout( function(){
           timeLeft = focus;
-          intervalId = setInterval(updateTimer, 1000);
+          intervalId = setInterval(updateTimer, 1000);},10000);
         }
       }
     }
