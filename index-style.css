@@ -45,14 +45,14 @@
 
 h1 {
     font-family: "Josefin Sans semi bold";
-    color: #F4989C;
+    color: #af171f;
     display: flex;
     justify-content: center;
     margin-top: 70px;
 }
 
 body {
-    background-color: #D6F6DD;
+    background-color: #8aee9f;
 }
 
 form {
@@ -60,10 +60,10 @@ form {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #DAC4F7;
+    border: 1px solid #c4f5f7;
     border-radius: 15px;
     padding: 20px;
-    background-color: #DAC4F7;
+    background-color: #c4f5f7;
     display: inline-block
 }
 
