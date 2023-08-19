@@ -52,5 +52,20 @@
 
 <p>Link: <a id='link' href='#'>Click here to copy link</a></p>
 
+<script>
+  document.getElementById('myForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+});
 
+document.querySelectorAll('#myForm input, #myForm select').forEach(function(elem) {
+    elem.addEventListener('change', updateLinkAndPreview);
+});
+
+document.getElementById('link').addEventListener('click', function(e) {
+    e.preventDefault();
+    navigator.clipboard.writeText(this.href);
+});
+
+updateLinkAndPreview();
+</script>
 </html>

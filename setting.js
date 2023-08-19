@@ -19,17 +19,3 @@ function updateLinkAndPreview() {
     preview.children[1].innerHTML = `${minutes.toString().padStart(2, '0')}:00`;
 }
 
-document.getElementById('myForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-});
-
-document.querySelectorAll('#myForm input, #myForm select').forEach(function(elem) {
-    elem.addEventListener('change', updateLinkAndPreview);
-});
-
-document.getElementById('link').addEventListener('click', function(e) {
-    e.preventDefault();
-    navigator.clipboard.writeText(this.href);
-});
-
-updateLinkAndPreview();
