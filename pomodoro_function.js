@@ -32,7 +32,7 @@ function updateTimer() {
       label.innerHTML = 'Focus';
       end_focus_sound.play();
       setTimeout(function() {
-      timeLeft = breakTime;
+      timeLeft = focus;
       intervalId = setInterval(updateTimer, 1000);},10000);
     } 
     else if (label.innerHTML === 'Focus') {
