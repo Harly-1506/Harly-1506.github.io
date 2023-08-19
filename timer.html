@@ -88,13 +88,23 @@
       }
     }
 
-    timer.addEventListener('click', function() {
-      if (!intervalId) {
-        label.innerHTML = 'Get ready';
-        timeLeft = 10;
-        intervalId = setInterval(updateTimer, 1000);
-      }
-    });
+    // timer.addEventListener('click', function() {
+    //   if (!intervalId) {
+    //     label.innerHTML = 'Get ready';
+    //     timeLeft = 10;
+    //     intervalId = setInterval(updateTimer, 1000);
+    //   }
+    // });
+
+  function startTimer() {
+  if (!intervalId) {
+    label.innerHTML = 'Get ready';
+    timeLeft = 10;
+    intervalId = setInterval(updateTimer, 1000);
+  }
+}
+
+startTimer()
   </script>
 </body>
 </html>
