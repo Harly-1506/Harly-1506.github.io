@@ -16,11 +16,11 @@
   </div>
   
   <audio id="end-focus-sound">
-    <source src="end-sound.mp3" type="audio/mpeg">
+    <source src="sounds\end_focus_sound.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
   <audio id="end-break-sound">
-    <source src="end-sound.mp3" type="audio/mpeg">
+    <source src="sounds\end_break_sound.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
@@ -44,8 +44,8 @@
 
     let label = document.getElementById('label');
     let timer = document.getElementById('timer');
-    let end_focus_sound = document.getElementById("end_focus_sound")
-    let end_break_sound = document.getElementById("end_break_sound")
+    let end_focus_sound = document.getElementById("end_focus_sound");
+    let end_break_sound = document.getElementById("end_break_sound");
 
     let timeLeft = focus;
     let intervalId;
@@ -61,12 +61,14 @@
           label.innerHTML = 'Focus';
           timeLeft = focus;
           intervalId = setInterval(updateTimer, 1000);
+          end_focus_sound.play();
         } else if (label.innerHTML === 'Focus') {
           reps--;
           if (reps > 0) {
             label.innerHTML = 'Break';
             timeLeft = breakTime;
             intervalId = setInterval(updateTimer, 1000);
+            end_break_sound.play();
           } else {
             label.innerHTML = 'Well';
             timer.innerHTML = 'DONE!';
