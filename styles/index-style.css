@@ -96,3 +96,8 @@ form * {
     margin-bottom: 5px;
 
 }
+.note {
+    font-size: 12px;
+    font-style: italic;
+    color: #555;
+  }
