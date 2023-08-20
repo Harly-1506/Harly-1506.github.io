@@ -15,6 +15,7 @@ container.children[1].style.fontFamily = timerFont;
 
 let label = document.getElementById('label');
 let timer = document.getElementById('timer');
+
 let end_focus_sound = new Audio('sounds/end_focus_sound.mp3');
 let end_break_sound = new Audio('sounds/end_break_sound.mp3');
 
