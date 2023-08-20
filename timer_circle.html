@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="timer-style.css">
+  <script src="pomodoro_function.js" defer></script>
+  <style>
+    #timer {
+      font-size: 100px;
+      cursor: pointer;
+    }
+    #container {
+      width: 300px;
+      height: 300px;
+      background-color: #f0f0f0;
+      border-radius: 50%;
+      /* Tạo hình tròn */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+/* <!--       align-items: center; --> */
+      margin: 0 auto;
+      box-shadow: 0 0 20px black, 0 0 5px black;
+    }
+
+    #label,
+    #timer {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='container'>
+    <p id='label' style='font-size:33px; margin-bottom:-20px;line-height: 3;'>Focus</p>
+    <p id='timer' style='font-size:100px; margin-top:0'>25:00</p>
+  </div>
+
+  <audio id="end-focus-sound">
+    <source src="sounds/end_focus_sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id="end-break-sound">
+    <source src="sounds/end_break_sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+
+</html>
