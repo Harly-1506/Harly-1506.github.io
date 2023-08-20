@@ -1,4 +1,4 @@
-# Pomodoro Timer for learn-with-me streams
+# Pomodoro Timer for "Study with me" streams
 ## About the Project
 This is a small and customizable pomodoro timer that you can integrate into OBS Studio. Feel free to use it in your next learn-with-me stream!
 
@@ -8,3 +8,6 @@ Under "Sources", click on "+" to add a new source. Select "Browser" and "Create 
 
 ## Contribute
 Feel free to do changes or add new Fonts!
+
+## Reference
+Thanks for great work [muederotter](https://github.com/muederotter/muederotter.github.io/tree/main)
