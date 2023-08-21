@@ -6,7 +6,7 @@ This repository is a source code for automatic Pomodoro with notification sound.
 [Example](https://harly-1506.github.io/Circle_timer.html?focus=60&break=10&reps=100&color=%23e70404&timerFont=MontserratBoldItalic&sessionFont=MontserratBoldItalic&alignment=left)
 
 ## How to use? 🍅
-Simply navigate to the page [harly-1506.github.io](harly-1506.github.io), where you can configure the desired time and select your preferred Pomodoro display style. You will find a readily usable link provided on the page, which can be directly utilized within OBS Studio.
+Simply navigate to the page [harly-1506.github.io](https://harly-1506.github.io), where you can configure the desired time and select your preferred Pomodoro display style. You will find a readily usable link provided on the page, which can be directly utilized within OBS Studio.
 ### Basic pomodoro
 ![image](https://github.com/Harly-1506/Harly-1506.github.io/assets/86733695/f44f61ab-f5bf-4a79-b55a-789f03cb3945)
 
