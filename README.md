@@ -2,7 +2,8 @@
 ## Summary:
 **The Pomodoro Technique** is a time management method designed to improve focus, productivity, and time utilization. It was developed by Francesco Cirillo in the late 1980s and is named after the Italian word for "tomato" because Cirillo initially used a tomato-shaped kitchen timer to track his work intervals.
 
-This repository is a source code for automatic Pomodoro with notification sound. Can be used for **Study with me** stream, OBS or can be used directly.
+This repository is a source code for automatic Pomodoro with notification sound. Can be used for **Study with me** stream, OBS or can be used directly. 
+[Example](https://harly-1506.github.io/Circle_timer.html?focus=60&break=10&reps=100&color=%23e70404&timerFont=MontserratBoldItalic&sessionFont=MontserratBoldItalic&alignment=left)
 
 ## How to use? 🍅
 Simply navigate to the page [harly-1506.github.io](harly-1506.github.io), where you can configure the desired time and select your preferred Pomodoro display style. You will find a readily usable link provided on the page, which can be directly utilized within OBS Studio.
@@ -15,3 +16,8 @@ Simply navigate to the page [harly-1506.github.io](harly-1506.github.io), where 
 you can customize the color and font for pomodoro
 ## Reference
 Thanks for great work [muederotter](https://github.com/muederotter/muederotter.github.io/tree/main)
+
+___
+**If you like  this repo, just star to support me** :star: :wink:
+
+**Harly**
