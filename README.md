@@ -1,13 +1,23 @@
-# Pomodoro Timer for "Study with me" streams
-## About the Project
-This is a small and customizable pomodoro timer that you can integrate into OBS Studio. Feel free to use it in your next learn-with-me stream!
+# Pomodoro Timer for "Study with me" streams  🍅
+## Summary:
+**The Pomodoro Technique** is a time management method designed to improve focus, productivity, and time utilization. It was developed by Francesco Cirillo in the late 1980s and is named after the Italian word for "tomato" because Cirillo initially used a tomato-shaped kitchen timer to track his work intervals.
 
-## How to use the timer
-### With OBS Studio
-Under "Sources", click on "+" to add a new source. Select "Browser" and "Create new". On https://muederotter.github.io/, configure your setup and click on the link to copy it. Paste it into the URL input in OBS Studio. I prefer to change the width to 300 and the height to 200. Now press "Ok".. To start the timer, right-click onto the Browser Source and select "Interact". A new window should pop up and by clicking on the timer you should start a 10 second countdown. After those 10 seconds, your timer starts.
+This repository is a source code for automatic Pomodoro with notification sound. Can be used for **Study with me** stream, OBS or can be used directly. 
+[Example](https://harly-1506.github.io/Circle_timer.html?focus=60&break=10&reps=100&color=%23e70404&timerFont=MontserratBoldItalic&sessionFont=MontserratBoldItalic&alignment=left)
 
-## Contribute
-Feel free to do changes or add new Fonts!
+## How to use? 🍅
+Simply navigate to the page [harly-1506.github.io](https://harly-1506.github.io), where you can configure the desired time and select your preferred Pomodoro display style. You will find a readily usable link provided on the page, which can be directly utilized within OBS Studio.
+### Basic pomodoro
+![image](https://github.com/Harly-1506/Harly-1506.github.io/assets/86733695/f44f61ab-f5bf-4a79-b55a-789f03cb3945)
 
+### Circle pomodoro
+![image](https://github.com/Harly-1506/Harly-1506.github.io/assets/86733695/6fd50994-c89f-4bad-b614-65bffbca962e)
+
+you can customize the color and font for pomodoro
 ## Reference
 Thanks for great work [muederotter](https://github.com/muederotter/muederotter.github.io/tree/main)
+
+___
+**If you like  this repo, just star to support me** :star: :wink:
+
+**Harly**
